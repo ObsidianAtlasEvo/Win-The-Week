@@ -10,4 +10,5 @@ One LG TV + one LG audio product, restaged each week on a dark "OLED black" set.
      for a single product such as a soundbar.
    - `audio.badge`: the yellow sticker over the hero (remove it to hide the sticker).
 3. Run `./make.sh` (needs Python + Pillow + numpy, Node + pptxgenjs).
-   Output: `<file>.pptx` in this folder.
+   Output: `<file>.pptx` (dark) and `<file>_Light.pptx` (white background) in this folder.
+   `./make.sh week.json light` builds just one theme.

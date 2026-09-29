@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
-# Build the weekly flyer from week.json -> <file>.pptx (+ preview PNG)
+# Build the weekly flyer from week.json -> <file>.pptx (dark) and <file>_Light.pptx
+#   ./make.sh                    both themes
+#   ./make.sh week.json light    one theme
 set -e
 cd "$(dirname "$0")"
 CFG=${1:-week.json}
-python3 compose.py "$CFG"
-python3 - "$CFG" <<'PY'
-import sys
-from PIL import Image
-for f in ["bestbuy_logo.png", "lg_logo.png"]:
-    im = Image.open("assets/" + f).convert("RGBA")
-    im.resize((im.width * 4, im.height * 4), Image.LANCZOS).save("build/" + f)
-PY
-node build.js "$CFG"
+for THEME in ${2:-dark light}; do
+  python3 compose.py "$CFG" "$THEME"
+  node build.js "$CFG" "$THEME"
+done
