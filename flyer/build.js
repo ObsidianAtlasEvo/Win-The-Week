@@ -103,7 +103,7 @@ opBadge("=", (AUX + AUW + PX) / 2, CY + CH / 2);
 
 const b = cfg.bundle, ix = PX + 0.3, iw = PW - 0.6;
 let y = PY + 0.3;
-T(b.label, { x: ix, y, w: iw, h: 0.26, fontSize: 13, bold: true, color: ACCENT, charSpacing: 3 });
+T(b.label, { x: ix, y, w: iw, h: 0.26, fontSize: 12.5, bold: true, color: ACCENT, charSpacing: 1 });
 y += 0.28;
 T(b.total, { x: ix, y, w: iw, h: 0.86, fontSize: 48, bold: true, color: WHITE, valign: "middle" });
 y += 0.86;
@@ -141,7 +141,7 @@ y += 0.72;
 T(b.financeNotes.join("\n"), { x: ix, y, w: iw, h: 0.5, fontSize: 12, color: SOFT, lineSpacingMultiple: 1.05 });
 
 // ================= FINE PRINT =================
-T(cfg.disclaimers.join("\n"), { x: MX, y: 6.93, w: 13.333 - 2 * MX, h: 0.45, fontSize: 8, color: DIM,
+T(cfg.disclaimers.join("\n"), { x: MX, y: 6.9, w: 13.333 - 2 * MX, h: 0.5, fontSize: 9, color: DIM,
   lineSpacingMultiple: 1.0 });
 
 if (cfg.notes) s.addNotes(cfg.notes);
