@@ -1,0 +1,53 @@
+{
+  "file": "LG_Best_Buy_83G6_2xM7_Flyer",
+  "eyebrow": "THIS WEEK'S FEATURED BUNDLE",
+  "headline": "LG HOME THEATER BUNDLE",
+  "subhead": "83-inch G6 OLED + two M7 wireless speakers",
+
+  "tv": {
+    "image": "assets/tv_83G6.png",
+    "tag": "OLED TV",
+    "name": "83\" LG G6 OLED evo AI",
+    "desc": "4K Smart TV with Gallery Design + Flush Wall Mount (2026)",
+    "price": "$5,499.99",
+    "chip": "SAVE $1,000",
+    "note": "Comp. value $6,499.99"
+  },
+
+  "audio": {
+    "image": "assets/audio_M7_pair.png",
+    "layout": "flank",
+    "tag": "M7 SPEAKER DEAL",
+    "name": "2x LG M7 speakers",
+    "desc": "Wi-Fi + Dolby Atmos wireless spatial speakers",
+    "price": "$399.99",
+    "chip": "PAY FOR 1",
+    "note": "2 speakers total",
+    "badge": ["1 M7 is FREE", "with 83\" G6 purchase"]
+  },
+
+  "bundle": {
+    "label": "BUNDLE WITH TOTAL",
+    "total": "$6,099.97",
+    "totalNote": "Before tax. Includes first year.",
+    "lines": [
+      ["TV + 2 M7 speakers", "$5,899.98"],
+      ["Total membership", "$199.99"]
+    ],
+    "lineNote": "$199.99/year. Auto-renews until canceled.",
+    "savings": "$1,399.99",
+    "savingsLabel": "combined savings",
+    "savingsNote": "$1,000 TV + free M7 value",
+    "financeLabel": "24-MONTH FINANCING ESTIMATE*",
+    "monthly": "$254.17",
+    "financeNotes": ["If the full $6,099.97 purchase qualifies.", "With My Best Buy® Credit Card."]
+  },
+
+  "notes": "LG / Best Buy featured bundle: 83\" LG G6 OLED evo AI + 2x LG M7 wireless speakers.\n\nMATH CHECK\n- TV $5,499.99 + M7 pair $399.99 (pay for 1) = $5,899.98\n- + first-year My Best Buy Total $199.99 = $6,099.97 before tax\n- $6,099.97 / 24 = $254.17/mo. financing illustration\n- Savings: $1,000 off TV + $399.99 free M7 = $1,399.99\n\nConfirm current cart pricing, free M7 eligibility, membership, financing eligibility and installation scope before presenting.",
+
+  "disclaimers": [
+    "Prices and offers subject to change. Confirm current cart pricing, free M7 promotional eligibility, membership, financing eligibility and installation eligibility before presenting.",
+    "*Illustration: $6,099.97 ÷ 24 ≈ $254.17. Full-purchase eligibility and credit approval required. No interest if paid in full within 24 months.",
+    "Otherwise, interest is charged from the purchase date. Minimum monthly payments required. †Confirm 83\" G6 eligibility, installation scope and current offer dates."
+  ]
+}
